@@ -1,0 +1,10 @@
+.doctor-img{
+    min-height: 130px;
+    border-radius: 1rem;
+    transition:transform .5s;
+    &:hover{
+        border: 2px solid red;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
